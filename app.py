@@ -7,6 +7,9 @@ from datetime import datetime
 from dotenv import load_dotenv
 load_dotenv()
 
+import os
+os.system("pip install openai")
+
 # Load OpenAI key
 api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
