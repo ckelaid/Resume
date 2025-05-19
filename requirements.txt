@@ -69,7 +69,7 @@ networkx==3.1
 nltk==3.9.1
 num2words==0.5.14
 numpy==1.24.4
-openai==1.61.1
+openai
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
 pandas==2.0.3
 parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1712320355065/work
