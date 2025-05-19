@@ -32,7 +32,7 @@ with col1:
     st.markdown("### 📈 Sr. Data Scientist")
 
 with col2:
-    st.markdown("### 📍 Somehwere, US")
+    st.markdown("### 📍 New York, NY")
 
 with col3:
     today = datetime.today().strftime("%m/%d/%Y")
