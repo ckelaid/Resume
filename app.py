@@ -1,5 +1,4 @@
 import streamlit as st
-import openai
 from openai import OpenAI
 # from utils import build_prompt
 import os
@@ -7,8 +6,7 @@ from datetime import datetime
 from dotenv import load_dotenv
 load_dotenv()
 
-import os
-os.system("pip install openai")
+
 
 # Load OpenAI key
 api_key = os.getenv("OPENAI_API_KEY")
