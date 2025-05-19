@@ -108,29 +108,6 @@ if st.button("🧹 Clear Chat"):
 
 
 
-# V1
-# user_input = st.text_input("", placeholder="e.g., What projects have you worked on?")
-
-# if user_input:
-#     st.session_state.messages.append({"role": "user", "content": user_input})
-
-#     # Call OpenAI's API
-#     with st.spinner("Thinking..."):
-#         response = client.chat.completions.create(
-#             model="gpt-3.5-turbo",
-#             messages=st.session_state.messages,
-#             temperature=0.1
-#         )
-#         mr_los_reply = response.choices[0].message.content
-#         st.session_state.messages.append({"role": "assistant", "content": mr_los_reply})
-
-# # Display the conversation
-# for msg in st.session_state.messages[1:]:  # skip the system prompt
-#     if msg["role"] == "user":
-#         st.markdown(f"**You:** {msg['content']}")
-#     else:
-#         st.markdown(f"**Carlitos:** {msg['content']}")
-        
 
 
 
